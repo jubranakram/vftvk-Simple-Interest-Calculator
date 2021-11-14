@@ -20,10 +20,12 @@ function compute()
 
     if (p.length == 0){
         alert('Enter Principle Amount');
+        document.getElementById("principal").focus();
         st_txt.innerHTML = '';
         return
     } else if (parseInt(p) <= 0) {
         alert('Enter a positive number');
+        document.getElementById("principal").focus();
         st_txt.innerHTML = '';
         return
     } else if (num_years.length == 0){
