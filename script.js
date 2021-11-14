@@ -19,7 +19,7 @@ function compute()
     }
 
     if (p.length == 0){
-        alert('Enter Principle Amount');
+        alert('Enter a positive number');
         document.getElementById("principal").focus();
         st_txt.innerHTML = '';
         return
