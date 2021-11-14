@@ -22,7 +22,7 @@ function compute()
         alert('Enter Principle Amount');
         st_txt.innerHTML = '';
         return
-    } else if (parseInt(p) < 0) {
+    } else if (parseInt(p) <= 0) {
         alert('Enter a positive number');
         st_txt.innerHTML = '';
         return
