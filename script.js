@@ -33,10 +33,10 @@ function compute()
         st_txt.innerHTML = '';
         return
     } else {
-        st_txt.innerHTML = `If you deposit ${p}, <br /> 
-        at an interest rate of ${int_rate*10.0/10}%.<br/>
-        You will receive an amount of ${calculateInterest(p, int_rate, num_years)},<br \>
-        in the year ${year+parseInt(num_years)}.`;
+        st_txt.innerHTML = `If you deposit <span class="h_text">${p}</span>, <br /> 
+        at an interest rate of <span class="h_text">${int_rate*10.0/10}%</span>.<br/>
+        You will receive an amount of <span class="h_text">${calculateInterest(p, int_rate, num_years)}</span>,<br \>
+        in the year <span class="h_text">${year+parseInt(num_years)}</span>.`;
     }
     
 }
